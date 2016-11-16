@@ -15,6 +15,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity_main2" />
+        <activity android:name=".activity_main3" />
+        <activity android:name=".activity_main4" />
+        <activity android:name=".activity_main5" />
+        <activity android:name=".activity_main6" />
+        <activity android:name=".activity_main7" />
+        <activity android:name=".activity_main8" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".MainActivity12" />
+        <activity android:name=".MainActivity13"></activity>
     </application>
 
 </manifest>
