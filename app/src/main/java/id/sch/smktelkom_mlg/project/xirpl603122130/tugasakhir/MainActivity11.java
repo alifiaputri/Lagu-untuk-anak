@@ -19,7 +19,7 @@ public class MainActivity11 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main10);
+        setContentView(R.layout.activity_main11);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -68,7 +68,7 @@ public class MainActivity11 extends AppCompatActivity {
      */
     private void play() {
 /** Memanggil File MP3 "indonesiaraya.mp3" */
-        mp = MediaPlayer.create(this, R.raw.tanahairku);
+        mp = MediaPlayer.create(this, R.raw.halohalo);
         try {
             mp.prepare();
         } catch (IllegalStateException e) {
@@ -93,10 +93,12 @@ public class MainActivity11 extends AppCompatActivity {
     public void pause() {
         if (mp.isPlaying()) {
             if (mp != null) {
+                btnPause.setText("Resume");
                 mp.pause();
             }
         } else {
             if (mp != null) {
+                btnPause.setText("Pause");
                 mp.start();
             }
         }
@@ -108,6 +110,7 @@ public class MainActivity11 extends AppCompatActivity {
     public void stop() {
         mp.stop();
         try {
+            btnPause.setText("Pause");
             mp.prepare();
             mp.seekTo(0);
         } catch (Throwable t) {

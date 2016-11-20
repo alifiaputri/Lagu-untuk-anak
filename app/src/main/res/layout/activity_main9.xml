@@ -12,33 +12,33 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
-        android:text="Lagu Indonesia Raya 2"
+        android:text="Nyiur Hijau"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/btnPLAY2"
+        android:id="@+id/btnPLAY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_marginTop="102dp"
-        android:layout_toLeftOf="@+id/btnPAUSE2"
-        android:layout_toStartOf="@+id/btnPAUSE2"
+        android:layout_toLeftOf="@+id/btnPAUSE"
+        android:layout_toStartOf="@+id/btnPAUSE"
         android:text="PLAY" />
 
     <Button
-        android:id="@+id/btnSTOP2"
+        android:id="@+id/btnSTOP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnPAUSE2"
-        android:layout_toEndOf="@+id/btnPAUSE2"
-        android:layout_toRightOf="@+id/btnPAUSE2"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_toEndOf="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
         android:text="STOP" />
 
     <Button
-        android:id="@+id/btnPAUSE2"
+        android:id="@+id/btnPAUSE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnPLAY2"
+        android:layout_alignTop="@+id/btnPLAY"
         android:layout_centerHorizontal="true"
         android:text="PAUSE" />
 

@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
-        android:text="Lagu Indonesia Raya"
+        android:text="Halo Halo Bandung"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button

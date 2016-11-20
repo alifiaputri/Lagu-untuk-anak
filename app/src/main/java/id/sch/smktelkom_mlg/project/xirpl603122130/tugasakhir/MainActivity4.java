@@ -19,7 +19,7 @@ public class MainActivity4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main10);
+        setContentView(R.layout.activity_main4);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -93,10 +93,12 @@ public class MainActivity4 extends AppCompatActivity {
     public void pause() {
         if (mp.isPlaying()) {
             if (mp != null) {
+                btnPause.setText("Resume");
                 mp.pause();
             }
         } else {
             if (mp != null) {
+                btnPause.setText("Pause");
                 mp.start();
             }
         }
@@ -108,6 +110,7 @@ public class MainActivity4 extends AppCompatActivity {
     public void stop() {
         mp.stop();
         try {
+            btnPause.setText("Pause");
             mp.prepare();
             mp.seekTo(0);
         } catch (Throwable t) {
