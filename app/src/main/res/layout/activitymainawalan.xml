@@ -16,8 +16,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center_vertical"
         android:background="#e1bee7"
-        android:text="Lagu Daerah"
-        android:textAlignment="center" />
+        android:text="Lagu Daerah" />
 
     <Button
         android:id="@+id/nasional"
