@@ -26,5 +26,5 @@
         android:background="#e1bee7"
         android:text="Lagu Nasional"
         android:textAlignment="center" />
-
+    
 </LinearLayout>
