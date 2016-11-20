@@ -74,17 +74,5 @@
             android:layout_height="wrap_content"
             android:text="Tanah Airku" />
 
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-
     </LinearLayout>
 </ScrollView>

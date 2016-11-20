@@ -44,8 +44,6 @@
         <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity9" />
         <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity10" />
         <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity11" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity12" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity13"></activity>
     </application>
 
 </manifest>
