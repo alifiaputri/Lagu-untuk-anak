@@ -6,73 +6,306 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-    android:layout_height="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity">
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir.MainActivity">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-            android:text="Indonesia Raya" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
+        <TableRow
+            android:id="@+id/tabel1"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Garuda Pancasila" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="5.13"
+            android:background="#e1bee7"
+            android:weightSum="1">
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Halo Halo Bandung" />
+            <ImageView
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Indonesia Pusaka" />
+                android:layout_width="50dp"
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Rayuan Pulau Kelapa" />
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Bangun Pemudi Pemuda" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#e1bee7"
+                android:text="Indonesia Raya"
+                android:textAlignment="center"
+                android:textColor="#000000" />
 
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hari Merdeka" />
+        </TableRow>
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Nyiur Hijau" />
 
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="match_parent"
+        <TableRow
+            android:id="@+id/tabel2"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Mengheningkan Cipta" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#f8bbd0"
+            android:weightSum="1">
 
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="match_parent"
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#f8bbd0"
+                android:text="GARUDA PANCASILA"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel3"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Tanah Airku" />
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#bbdefb"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#bbdefb"
+                android:text="Halo Halo Bandung"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tabel4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#ffccbc"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#ffccbc"
+                android:text="INDONESIA PUSAKA"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#d7ccc8"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#d7ccc8"
+                android:text="Rayuan Pulau Kelapa"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#c8e6c9"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#c8e6c9"
+                android:text="Bangun Pemuda Pemudi"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#ffcdd2"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#ffcdd2"
+                android:text="Hari Merdeka"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#c5cae9"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#c5cae9"
+                android:text="NyiurHijau"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel11"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#f0f4c3"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#f0f4c3"
+                android:text="Mengheningkan Cipta"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tabel10"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5.13"
+            android:background="#b2dfdb"
+            android:weightSum="1">
+
+            <ImageView
+
+                android:layout_width="50dp"
+
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_media_play" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="#b2dfdb"
+                android:text="Tanah Airku"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+        </TableRow>
+
 
     </LinearLayout>
 </ScrollView>
