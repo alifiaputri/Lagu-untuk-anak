@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/daerah"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="#e1bee7"
+        android:text="Lagu Daerah"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/nasional"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="#e1bee7"
+        android:text="Lagu Nasional"
+        android:textAlignment="center" />
+
+</LinearLayout>

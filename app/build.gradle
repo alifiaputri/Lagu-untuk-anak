@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "id.sch.smktelkom_mlg.project.xirpl603122130.tugasakhir"
+        applicationId "id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
