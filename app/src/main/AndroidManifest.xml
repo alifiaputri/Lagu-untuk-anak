@@ -8,25 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
-            android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.SplashScreen"
+            android:name=".SplashScreen"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
-
         <activity
-            android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity"
-            android:label="@string/app_name">
-
-        </activity>
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
         <activity android:name=".activity_main2" />
         <activity android:name=".activity_main3" />
         <activity android:name=".activity_main4" />
@@ -34,16 +29,30 @@
         <activity android:name=".activity_main6" />
         <activity android:name=".activity_main7" />
         <activity android:name=".activity_main8" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity2" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity3" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity4" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity5" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity6" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity7" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity8" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity9" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity10" />
-        <activity android:name="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainActivity11" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".MainActivity8" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity10" />
+        <activity android:name=".MainActivity11" />
+        <activity android:name=".MainHome" />
+        <activity android:name=".MainActivity000" />
+        <activity android:name=".MainActivity001" />
+        <activity android:name=".MainActivity0" />
+        <activity android:name=".MainActivity002" />
+        <activity android:name=".MainActivity003" />
+        <activity android:name=".MainActivity004" />
+        <activity android:name=".MainActivity005" />
+        <activity android:name=".MainActivity006" />
+        <activity android:name=".MainActivity007" />
+        <activity android:name=".MainActivity008" />
+        <activity android:name=".MainActivity009" />
+        <activity android:name=".MainActivity010" />
+        <activity android:name=".MainActivity011"></activity>
     </application>
 
 </manifest>
