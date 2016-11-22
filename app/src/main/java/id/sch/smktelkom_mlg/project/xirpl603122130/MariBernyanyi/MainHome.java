@@ -16,17 +16,13 @@ public class MainHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainhome);
 
-        bWajib = (Button) findViewById(R.id.buttonWajib);
-        bDaerah = (Button) findViewById(R.id.buttonDaerah);
-
-        bWajib.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.buttonWajib).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainHome.this, MainActivity.class));
             }
         });
-
-        bDaerah.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.buttonDaerah).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainHome.this, MainActivity000.class));

@@ -12,15 +12,35 @@
     android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainHome">
 
-    <Button
-        android:id="@+id/buttonWajib"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/maribernyanyi" />
 
-    <Button
+    <ImageButton
+        android:id="@+id/buttonWajib"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/nasional" />
+
+    <ImageButton
         android:id="@+id/buttonDaerah"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_width="480dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:background="#00000000"
+        android:scaleType="centerInside"
+        android:src="@drawable/daerah2" />
 </LinearLayout>
