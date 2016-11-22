@@ -9,6 +9,7 @@ public class MainActivity005 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main005);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
