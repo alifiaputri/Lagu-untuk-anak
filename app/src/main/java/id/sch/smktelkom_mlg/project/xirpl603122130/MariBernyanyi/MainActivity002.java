@@ -22,7 +22,7 @@ public class MainActivity002 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate: ");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main002);
+        setContentView(R.layout.activity_main2);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -71,7 +71,7 @@ public class MainActivity002 extends AppCompatActivity {
      */
     private void play() {
 /** Memanggil File MP3 "indonesiaraya.mp3" */
-        mp = MediaPlayer.create(this, R.raw.garudapancasila);
+        mp = MediaPlayer.create(this, R.raw.gundul);
         try {
             mp.prepare();
         } catch (IllegalStateException e) {
