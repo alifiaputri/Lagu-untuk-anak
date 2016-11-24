@@ -136,7 +136,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView10"
                 android:layout_centerHorizontal="true"
                 android:text="Nang mana batis kutung"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -145,7 +145,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView11"
                 android:layout_centerHorizontal="true"
                 android:text="Dikitipi dawang (2x)"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -154,7 +154,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView12"
                 android:layout_centerHorizontal="true"
                 android:text="Ampar ampar pisang"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -163,7 +163,7 @@
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView13"
                 android:layout_centerHorizontal="true"
                 android:text="Pisangku balum masak"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -172,7 +172,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView14"
                 android:layout_centerHorizontal="true"
                 android:text="Masak bigi di hurung bari-bari"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -181,7 +181,7 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView15"
                 android:layout_centerHorizontal="true"
                 android:text="Masak bigi di hurung bari-bari"
                 android:textAppearance="?android:attr/textAppearanceMedium" />

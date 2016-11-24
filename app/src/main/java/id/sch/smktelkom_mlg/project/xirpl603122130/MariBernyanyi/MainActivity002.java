@@ -22,7 +22,7 @@ public class MainActivity002 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate: ");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main002);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

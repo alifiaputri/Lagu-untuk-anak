@@ -136,7 +136,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textView9"
+                android:layout_below="@+id/textView10"
                 android:layout_centerHorizontal="true"
                 android:text="Ketemu pisan gawe gela"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
