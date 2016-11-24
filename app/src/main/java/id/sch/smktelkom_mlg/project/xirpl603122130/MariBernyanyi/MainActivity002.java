@@ -70,8 +70,8 @@ public class MainActivity002 extends AppCompatActivity {
      * Dijalankan Oleh Tombol Play
      */
     private void play() {
-/** Memanggil File MP3 "indonesiaraya.mp3" */
-        mp = MediaPlayer.create(this, R.raw.gundul);
+/** Memanggil File MP3 "lir.mp3" */
+        mp = MediaPlayer.create(this, R.raw.lir);
         try {
             mp.prepare();
         } catch (IllegalStateException e) {
