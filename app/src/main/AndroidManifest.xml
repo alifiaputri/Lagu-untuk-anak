@@ -52,7 +52,8 @@
         <activity android:name=".MainActivity008" />
         <activity android:name=".MainActivity009" />
         <activity android:name=".MainActivity010" />
-        <activity android:name=".MainActivity011"></activity>
+        <activity android:name=".MainActivity011" />
+        <activity android:name=".IntroActivity"></activity>
     </application>
 
 </manifest>
