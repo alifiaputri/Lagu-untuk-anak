@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hm"
+    android:background="@drawable/aaaaaaaaaaa"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,17 +14,20 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
         android:text="Lagu Ayam Den Lapeh"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28dp" />
 
     <Button
         android:id="@+id/btnPLAY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="102dp"
+        android:layout_marginTop="50dp"
         android:layout_toLeftOf="@+id/btnPAUSE"
         android:layout_toStartOf="@+id/btnPAUSE"
-        android:text="PLAY" />
+        android:background="#66bb6a"
+        android:text="PLAY"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/btnSTOP"
@@ -33,7 +36,9 @@
         android:layout_alignTop="@+id/btnPAUSE"
         android:layout_toEndOf="@+id/btnPAUSE"
         android:layout_toRightOf="@+id/btnPAUSE"
-        android:text="STOP" />
+        android:background="#e53935"
+        android:text="STOP"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/btnPAUSE"
@@ -41,16 +46,17 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/btnPLAY"
         android:layout_centerHorizontal="true"
+        android:background="#ffeb3b"
         android:text="PAUSE" />
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="200px"
+        android:layout_marginBottom="50px"
         android:layout_marginLeft="80px"
         android:layout_marginRight="80px"
-        android:layout_marginTop="400px">
+        android:layout_marginTop="350px">
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
@@ -281,13 +287,4 @@
         </RelativeLayout>
     </ScrollView>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:text="Sayangi Anak-Anakmu"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 </RelativeLayout>
