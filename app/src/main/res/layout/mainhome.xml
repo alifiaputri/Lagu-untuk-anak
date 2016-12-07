@@ -13,7 +13,7 @@
     tools:context="id.sch.smktelkom_mlg.project.xirpl603122130.MariBernyanyi.MainHome">
 
     <ImageView
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
