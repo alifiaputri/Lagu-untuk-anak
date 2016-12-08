@@ -11,7 +11,7 @@ Di aplikasi ini kita menambahkan 10 lagu daerah dan 10 lagu nasional.
 ![screenshot_2016-12-07-16-47-28](https://cloud.githubusercontent.com/assets/22120736/20962767/43f14a7a-bc9d-11e6-8ae6-6be1904ed078.png)
 ![screenshot_2016-12-07-16-47-33](https://cloud.githubusercontent.com/assets/22120736/20962768/441b3524-bc9d-11e6-9150-34f21ca21b80.png)
 #Video Aplikasi
-https://youtu.be/DBGkjoGBldw
+[![Youtube video](https://img.youtube.com/vi/DBGkjoGBldw/0.jpg)](https://youtu.be/DBGkjoGBldw)
 #Link File APK
 https://drive.google.com/open?id=0BxHLoEX0kcfjaDJVRUVLeDRSV0U
 #Indentitas Kelompok
